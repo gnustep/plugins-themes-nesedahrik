@@ -1,0 +1,121 @@
+{
+    GSThemeAuthors = (
+	"Jesse Ross",
+	"Eric Wasylishen"
+    );
+    GSThemeDetails = "";
+    GSThemeDomain = {
+	GSBackHandlesWindowDecorations = NO;
+	GSBrowserColumnSeparation = 0;
+	GSBrowserUseBezels = NO;
+	GSBrowserVerticalPadding = 0;
+	GSMenuBarHeight = 22;
+	GSMenuItemHeight = 20;
+	GSMenuSeparatorHeight = 5;
+	GSScrollViewNoInnerBorder = YES;
+	GSScrollViewUseBottomCorner = NO;
+	GSScrollerArrowsSameEnd = YES;
+	GSScrollerButtonsOffset = 0;
+	GSScrollerDefaultWidth = "16.0";
+	GSScrollerKnobOvershoot = "1.0";
+	GSScrollerScrollsByPage = YES;
+	NSMenuInterfaceStyle = GSWindowMakerInterfaceStyle; /* Align submenu with selected item */
+	NSTitleBarFont = Helvetica;
+	GSScrollViewScrollersOverlapBorders = YES;
+	GSMenuSubmenuHorizontalOverlap = 2;
+    };
+    GSThemeIcon = "Thematic.png";
+    GSThemeLicense = "";
+    GSThemeTiles = {
+	GSButton = {
+	    FileName = "NSButton.9.png";
+	};
+	GSButtonSelected = {
+	    FileName = "NSButtonSelected.9.png";
+	};
+	GSColorWell = {
+	    FileName = "NSButton.9.png";
+	};
+	GSColorWellHighlighted = {
+	    FileName = "NSButtonHighlighted.9.png";
+	};
+	GSMenuCloseButton = {
+	    FileName = "Blank.9.png";
+	};
+	GSMenuHorizontalItem = {
+	    FileName = "Blank.9.png";
+	};
+	GSMenuHorizontalItemHighlighted = {
+	    FileName = "GSMenuItemSelected.png";
+	};
+	GSMenuHorizontalItemSelected = {
+	    FileName = "GSMenuItemSelected.png";
+	};
+	GSMenuVerticalItem = {
+	    FileName = "Blank.9.png";
+	};
+	GSMenuVerticalItemSelected = {
+	    FileName = "Blank.9.png";
+	};
+	GSMenuVerticalItemDisabled = {
+	    FileName = "Blank.9.png";
+	};
+	GSWindowBackground = {
+	    FileName = "WindowBackground.png";
+	    HorizontalDivision = 20;
+	    VerticalDivision = 20;
+	};
+	GSWindowBackgroundSelected = {
+	    FileName = "WindowBackgroundSelected.png";
+	    FillStyle = ScaleAll;
+	    HorizontalDivision = 20;
+	    VerticalDivision = 20;
+	};
+	GSWindowResizeBar = {
+	    FileName = "WindowResize.9.png";
+	};
+	GSWindowTitleBar = {
+	    FileName = "Titlebar.9.png";
+	};
+	NSSegmentStyleTexturedSquare = {
+	    FileName = "SegmentedCell-unselected.9.png";
+	};
+	NSSegmentStyleTexturedSquareRoundedLeft = {
+	    FileName = "SegmentedCellRoundedLeft-unselected.9.png";
+	};
+	NSSegmentStyleTexturedSquareRoundedLeftRoundedRight = {
+	    FileName = "SegmentedCell-unselected.9.png";
+	};
+	NSSegmentStyleTexturedSquareRoundedLeftRoundedRightSelected = {
+	    FileName = "SegmentedCell-selected.9.png";
+	};
+	NSSegmentStyleTexturedSquareRoundedLeftSelected = {
+	    FileName = "SegmentedCellRoundedLeft-selected.9.png";
+	};
+	NSSegmentStyleTexturedSquareRoundedRight = {
+	    FileName = "SegmentedCell-unselected.9.png";
+	};
+	NSSegmentStyleTexturedSquareRoundedRightSelected = {
+	    FileName = "SegmentedCell-selected.9.png";
+	};
+	NSSegmentStyleTexturedSquareSelected = {
+	    FileName = "SegmentedCell-selected.9.png";
+	};
+	NSTextFieldRoundedBezel = {
+	    FileName = "NSBezelBorder.9.png";
+	};
+	NSTextFieldSquareBezel = {
+	    FileName = "NSBezelBorder.9.png";
+	};
+	NSTexturedSquareBezelStyle = {
+	    FileName = "NSShadowlessSquareBezelStyle.9.png";
+	};
+	NSTexturedSquareBezelStyleSelected = {
+	    FileName = "NSShadowlessSquareBezelStyleHighlighted.9.png";
+	};
+        GSColorWellInnerBorder = {
+            FileName = "NSBezelBorder.9.png";
+        };
+    };
+    GSThemeVersion = "0.1";
+}
