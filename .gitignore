@@ -1,0 +1,7 @@
+obj/
+Rik.theme/
+.AppleDouble
+.gwdir
+*.swp
+.vimrc
+tags
