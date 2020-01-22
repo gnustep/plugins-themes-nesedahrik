@@ -1,7 +1,8 @@
 {
     GSThemeAuthors = (
 	"Jesse Ross",
-	"Eric Wasylishen"
+	"Eric Wasylishen",
+	"Bertrand Dekoninck (Rik Icons)"
     );
     GSThemeDetails = "";
     GSThemeDomain = {
@@ -12,7 +13,9 @@
 	GSMenuBarHeight = 22;
 	GSMenuItemHeight = 20;
 	GSMenuSeparatorHeight = 5;
+	GSMenuSubmenuHorizontalOverlap = 2;
 	GSScrollViewNoInnerBorder = YES;
+	GSScrollViewScrollersOverlapBorders = YES;
 	GSScrollViewUseBottomCorner = NO;
 	GSScrollerArrowsSameEnd = YES;
 	GSScrollerButtonsOffset = 0;
@@ -21,8 +24,6 @@
 	GSScrollerScrollsByPage = YES;
 	NSMenuInterfaceStyle = GSWindowMakerInterfaceStyle; /* Align submenu with selected item */
 	NSTitleBarFont = Helvetica;
-	GSScrollViewScrollersOverlapBorders = YES;
-	GSMenuSubmenuHorizontalOverlap = 2;
     };
     GSThemeIcon = "Thematic.png";
     GSThemeLicense = "";
@@ -39,6 +40,9 @@
 	GSColorWellHighlighted = {
 	    FileName = "NSButtonHighlighted.9.png";
 	};
+	GSColorWellInnerBorder = {
+	    FileName = "NSBezelBorder.9.png";
+	};
 	GSMenuCloseButton = {
 	    FileName = "Blank.9.png";
 	};
@@ -54,10 +58,10 @@
 	GSMenuVerticalItem = {
 	    FileName = "Blank.9.png";
 	};
-	GSMenuVerticalItemSelected = {
+	GSMenuVerticalItemDisabled = {
 	    FileName = "Blank.9.png";
 	};
-	GSMenuVerticalItemDisabled = {
+	GSMenuVerticalItemSelected = {
 	    FileName = "Blank.9.png";
 	};
 	GSWindowBackground = {
@@ -113,9 +117,6 @@
 	NSTexturedSquareBezelStyleSelected = {
 	    FileName = "NSShadowlessSquareBezelStyleHighlighted.9.png";
 	};
-        GSColorWellInnerBorder = {
-            FileName = "NSBezelBorder.9.png";
-        };
     };
     GSThemeVersion = "0.1";
 }
